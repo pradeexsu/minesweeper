@@ -1,1 +1,3 @@
 # minesweeper
+
+[demo](demo.gif)
