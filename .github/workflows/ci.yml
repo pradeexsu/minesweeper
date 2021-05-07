@@ -1,0 +1,25 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: configure
+      run: sudo apt install libwxgtk3.0-gtk3-dev 
+          | echo wxWidgets installed
+    - name: building application
+      run: g++ main.cpp `wx-config --cxxflags --libs`
+          | echo app builded
+    - name: running app
+      run: echo ci executed successfully 
+#      run: ./a.out    
+        
