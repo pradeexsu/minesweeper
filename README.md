@@ -1,9 +1,11 @@
-# The MineSweeper Game
+# The MineSweeper Game 
+
+[![C/C++ CI](https://github.com/sutharp777/minesweeper/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/sutharp777/minesweeper/actions/workflows/ci.yml)
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sutharp777/minesweeper/master/demo.gif" height="400">
-<p>
-  
+<img src="https://raw.githubusercontent.com/sutharp777/minesweeper/master/demo.gif" height="400"> 
+<p>  
+
 ## run on you linux OS
 
 ### step 1. install wxgtk
