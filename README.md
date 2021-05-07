@@ -1,8 +1,9 @@
-# minesweeper
+# The MineSweeper Game
 
-![demo](https://raw.githubusercontent.com/sutharp777/minesweeper/master/demo.gif)
-
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/sutharp777/minesweeper/master/demo.gif" height="400">
+<p>
+  
 ## run on you linux OS
 
 ### step 1. install wxgtk
